@@ -1,7 +1,7 @@
 [
   {
     "name": "Serrated",
-    "desc": "Extra bleed damage on hits",
+    "desc": "Victims hit by the Perk holder take 1 HP per second of extra damage for the next 3.5 seconds.",
     "img": "images/serrated.webp"
   },
   {
