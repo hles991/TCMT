@@ -22,25 +22,25 @@ function renderList(items) {
     .join('');
 }
 
-// load the data
+// load the data and show all perks immediately
 fetch('perks.json')
   .then(res => res.json())
   .then(data => {
     perks = data;
-    renderList(perks);              // show all perks initially
+    renderList(perks);
   })
-  .catch(err => console.error(err));
+  .catch(err => console.error('Error loading perks.json:', err));
 
-// on input, either filter or show everything
+// on input, filter or show everything
 input.addEventListener('input', () => {
   const q = input.value.trim().toLowerCase();
-  const hits = q
+  const toShow = q
     ? perks.filter(p =>
         p.name.toLowerCase().includes(q) ||
         (p.desc && p.desc.toLowerCase().includes(q))
       )
-    : perks;                      // no query → show all
+    : perks;
 
-  renderList(hits);
+  renderList(toShow);
 });
 
