@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#search {
+  width: 100%;
+  padding: .5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+#results {
+  list-style: none;
+  padding: 0;
+}
+#results li {
+  padding: .5rem;
+  border-bottom: 1px solid #eee;
+}
+#results li strong {
+  display: block;
+  font-size: 1.1rem;
+}

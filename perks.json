@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Serrated",
+    "desc": "Extra bleed damage on hits",
+    "values": { "bleedPct": 0.05 }
+  },
+  {
+    "name": "Scout",
+    "desc": "Reveals nearby tracks",
+    "values": { "range": 10 }
+  },
+  {
+    "name": "Twinkle Toes",
+    "desc": "Silent footsteps",
+    "values": {}
+  }
+]
