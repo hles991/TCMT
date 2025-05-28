@@ -1,29 +1,12 @@
 let perks = [];
 
-// Load the data
-fetch('perks.json')
-  .then(res => res.json())
-  .then(data => perks = data)
-  .catch(err => console.error('Error loading perks.json:', err));
-
+// grab DOM nodes
 const input = document.getElementById('search');
 const list  = document.getElementById('results');
 
-input.addEventListener('input', () => {
-  const q = input.value.trim().toLowerCase();
-  if (!q) {
-    list.innerHTML = '';
-    return;
-  }
-
-  // Simple “type-ahead” filter
-  const hits = perks.filter(p =>
-    p.name.toLowerCase().includes(q) ||
-    (p.desc && p.desc.toLowerCase().includes(q))
-  );
-
-  // Render results with optional icon
-  list.innerHTML = hits
+// helper to render any array of perks
+function renderList(items) {
+  list.innerHTML = items
     .map(p => `
       <li>
         ${p.img
@@ -37,5 +20,27 @@ input.addEventListener('input', () => {
       </li>
     `)
     .join('');
+}
+
+// load the data
+fetch('perks.json')
+  .then(res => res.json())
+  .then(data => {
+    perks = data;
+    renderList(perks);              // show all perks initially
+  })
+  .catch(err => console.error(err));
+
+// on input, either filter or show everything
+input.addEventListener('input', () => {
+  const q = input.value.trim().toLowerCase();
+  const hits = q
+    ? perks.filter(p =>
+        p.name.toLowerCase().includes(q) ||
+        (p.desc && p.desc.toLowerCase().includes(q))
+      )
+    : perks;                      // no query → show all
+
+  renderList(hits);
 });
 
