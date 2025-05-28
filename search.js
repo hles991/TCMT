@@ -22,12 +22,20 @@ input.addEventListener('input', () => {
     (p.desc && p.desc.toLowerCase().includes(q))
   );
 
-  // Render results
+  // Render results with optional icon
   list.innerHTML = hits
     .map(p => `
       <li>
-        <strong>${p.name}</strong>
-        ${p.desc ? `<span>${p.desc}</span>` : ''}
+        ${p.img
+          ? `<img src="${p.img}" alt="${p.name}" class="icon">`
+          : ''
+        }
+        <div class="info">
+          <strong>${p.name}</strong>
+          ${p.desc ? `<span>${p.desc}</span>` : ''}
+        </div>
       </li>
-    `).join('');
+    `)
+    .join('');
 });
+

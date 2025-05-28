@@ -20,8 +20,22 @@ h1 {
   padding: 0;
 }
 #results li {
-  padding: .5rem;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
   border-bottom: 1px solid #eee;
+}
+#results li .icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-right: 0.75rem;
+}
+#results li .info span {
+  display: block;
+  margin-top: 0.25rem;
+  color: #555;
+  font-size: 0.9rem;
 }
 #results li strong {
   display: block;

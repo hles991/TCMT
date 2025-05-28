@@ -2,16 +2,16 @@
   {
     "name": "Serrated",
     "desc": "Extra bleed damage on hits",
-    "values": { "bleedPct": 0.05 }
+    "img": "images/serrated.webp"
   },
   {
     "name": "Scout",
     "desc": "Reveals nearby tracks",
-    "values": { "range": 10 }
+    "img": "images/scout.webp"
   },
   {
     "name": "Twinkle Toes",
     "desc": "Silent footsteps",
-    "values": {}
+    "img": "images/twinkle.webp"
   }
 ]
