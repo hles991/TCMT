@@ -8,15 +8,18 @@ const searchContainer = document.getElementById('searchContainer');
 
 // Render function
 function renderList(items) {
-  list.innerHTML = items.map(p => `
-    <li class="${p.large ? 'large-img' : ''}">
-      ${p.img ? `<img src="${p.img}" alt="${p.name}" class="icon">` : ''}
-      <div class="info">
-        <strong>${p.name}</strong>
-        ${p.desc ? `<span>${p.desc}</span>` : ''}
-      </div>
-    </li>
-  `).join('');
+  list.innerHTML = items.map(p => {
+    const isLarge = p.large;
+    return `
+      <li class="${isLarge ? 'large-img' : ''}">
+        <div class="info">
+          <strong>${p.name}</strong>
+          ${p.desc ? `<span>${p.desc}</span>` : ''}
+        </div>
+        ${p.img ? `<img src="${p.img}" alt="${p.name}" class="icon ${isLarge ? 'icon-large' : ''}">` : ''}
+      </li>
+    `;
+  }).join('');
 }
 
 

@@ -25,6 +25,10 @@ h1 {
   align-items: center;
   padding: 0.5rem;
   border-bottom: 1px solid #eee;
+  gap: 0.5rem;
+}
+#results li:not(.large-img) {
+  flex-direction: row;
 }
 #results li .icon {
   width: 40px;
@@ -42,8 +46,14 @@ h1 {
   display: block;
   font-size: 1.1rem;
 }
-#results li.large-img .icon {
+#results li.large-img {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.icon-large {
   width: 480px;
-  height: 480px;
+  height: auto;
+  object-fit: contain;
+  margin-top: 0.5rem;
 }
 
