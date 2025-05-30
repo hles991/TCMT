@@ -52,7 +52,7 @@ h1 {
 }
 .icon-large {
   width: 480px;
-  height: auto;
+  height: 480px;
   object-fit: contain;
   margin-top: 0.5rem;
 }

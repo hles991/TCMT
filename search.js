@@ -10,17 +10,36 @@ const searchContainer = document.getElementById('searchContainer');
 function renderList(items) {
   list.innerHTML = items.map(p => {
     const isLarge = p.large;
-    return `
-      <li class="${isLarge ? 'large-img' : ''}">
-        <div class="info">
-          <strong>${p.name}</strong>
-          ${p.desc ? `<span>${p.desc}</span>` : ''}
-        </div>
-        ${p.img ? `<img src="${p.img}" alt="${p.name}" class="icon ${isLarge ? 'icon-large' : ''}">` : ''}
-      </li>
-    `;
+    const imageHTML = p.img
+      ? `<img src="${p.img}" alt="${p.name}" class="icon ${isLarge ? 'icon-large' : ''}">`
+      : '';
+
+    if (isLarge) {
+      // Text above, image below
+      return `
+        <li class="large-img">
+          <div class="info">
+            <strong>${p.name}</strong>
+            ${p.desc ? `<span>${p.desc}</span>` : ''}
+          </div>
+          ${imageHTML}
+        </li>
+      `;
+    } else {
+      // Icon left, text right
+      return `
+        <li>
+          ${imageHTML}
+          <div class="info">
+            <strong>${p.name}</strong>
+            ${p.desc ? `<span>${p.desc}</span>` : ''}
+          </div>
+        </li>
+      `;
+    }
   }).join('');
 }
+
 
 
 // Search filter logic
