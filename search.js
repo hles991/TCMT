@@ -1,27 +1,26 @@
 let perks = [];
 
-// grab DOM nodes
+// DOM elements
 const input = document.getElementById('search');
-const list  = document.getElementById('results');
+const list = document.getElementById('results');
 const modeSelect = document.getElementById('modeSelect');
 const searchContainer = document.getElementById('searchContainer');
 
-// render function
+// Render function
 function renderList(items) {
-  list.innerHTML = items
-    .map(p => `
-      <li>
-        ${p.img ? `<img src="${p.img}" alt="${p.name}" class="icon">` : ''}
-        <div class="info">
-          <strong>${p.name}</strong>
-          ${p.desc ? `<span>${p.desc}</span>` : ''}
-        </div>
-      </li>
-    `).join('');
+  list.innerHTML = items.map(p => `
+    <li>
+      ${p.img ? `<img src="${p.img}" alt="${p.name}" class="icon">` : ''}
+      <div class="info">
+        <strong>${p.name}</strong>
+        ${p.desc ? `<span>${p.desc}</span>` : ''}
+      </div>
+    </li>
+  `).join('');
 }
 
-// setup search input listener
-input.addEventListener('input', () => {
+// Search filter logic
+function handleSearch() {
   const q = input.value.trim().toLowerCase();
   const filtered = q
     ? perks.filter(p =>
@@ -30,28 +29,39 @@ input.addEventListener('input', () => {
       )
     : perks;
   renderList(filtered);
-});
+}
 
-// when a mode is selected
+// Event: input in search bar
+input.addEventListener('input', handleSearch);
+
+// Event: mode selection
 modeSelect.addEventListener('change', () => {
   const mode = modeSelect.value;
+
+  // Hide search bar if no mode selected
   if (!mode) {
     searchContainer.style.display = 'none';
     return;
   }
 
-  fetch(`${mode}.json`) // e.g., bloodrush.json
+  // Show search container and load correct data
+  searchContainer.style.display = 'block';
+  fetch(`${mode}.json`)
     .then(res => res.json())
     .then(data => {
       perks = data;
-      renderList(perks);
       input.value = '';
-      searchContainer.style.display = 'block';
+      renderList(perks);
     })
-    .catch(err => console.error('Error loading mode data:', err));
+    .catch(err => {
+      console.error('Failed to load mode data:', err);
+      list.innerHTML = `<li>Error loading data for ${mode}</li>`;
+    });
 });
 
-// Automatically load Blood Rush if it's the default
-if (modeSelect.value === 'bloodrush') {
-  modeSelect.dispatchEvent(new Event('change'));
-}
+// Load the default mode on first page load
+window.addEventListener('DOMContentLoaded', () => {
+  if (modeSelect.value) {
+    modeSelect.dispatchEvent(new Event('change'));
+  }
+});
