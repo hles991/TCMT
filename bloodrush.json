@@ -74,7 +74,7 @@
   },
   {
     "name": "Grandpa levelling units",
-    "desc": "Leatherface cutting barricades: 25 blood<br>Leatherface destroying crawl spaces: 25 blood<br>Cook succesful pings: 20 blood<br>Victim triggering Hitchhickers' traps: 50 blood<br>Victim jumping out of a window: 25 blood<br>Victim executed: 50 blood<br>Victim detected by grandpa when near him: 50 blood<br>Victim found in hiding spot: 75 blood",
+    "desc": "Leatherface cutting barricades: 25 blood<br>Leatherface destroying crawl spaces: 25 blood<br>Cook succesful pings: 20 blood<br>Victim triggering Hitchhiker's traps: 50 blood<br>Victim jumping out of a window: 25 blood<br>Victim executed: 50 blood<br>Victim detected by grandpa when near him: 50 blood<br>Victim found in hiding spot: 75 blood",
     "img": "images/1373748170223390840.webp"
   },
   {
@@ -83,8 +83,8 @@
     "img": "images/1373748170223390840.webp"
   },
   {
-    "name": "Victim bleedout",
-    "desc": "Victim bleedout has been increased.",
+    "name": "Victims bleedout",
+    "desc": "Victims bleedout has been increased.",
     "img": "images/blood rush bleedout.png",
     "large": true
   }
