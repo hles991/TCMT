@@ -8,14 +8,25 @@
 </head>
 <body>
   <h1>TCMT Search</h1>
-  <input
-    id="search"
-    type="search"
-    placeholder="Start typing…"
-    autocomplete="off"
-  />
-  <ul id="results"></ul>
+
+  <label for="modeSelect">Select Mode:</label>
+  <select id="modeSelect">
+    <option value="">-- Choose a Mode --</option>
+    <option value="bloodrush" selected>Blood Rush</option>
+    <!-- You can add more modes later -->
+  </select>
+
+  <div id="searchContainer" style="display: none;">
+    <input
+      id="search"
+      type="search"
+      placeholder="Start typing…"
+      autocomplete="off"
+    />
+    <ul id="results"></ul>
+  </div>
 
   <script src="search.js"></script>
 </body>
 </html>
+

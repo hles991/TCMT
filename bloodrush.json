@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Serrated",
+    "desc": "Victims hit by the Perk holder take 1 HP per second of extra damage for the next 10 seconds.",
+    "img": "images/serrated.webp"
+  },
+  {
+    "name": "Heart Attack",
+    "desc": "A victim's bleed out increases by 1 HP per second for 60 seconds if they trigger an electric trap or are hit by the perk holder's barge.",
+    "img": "images/IconPerks_HeartAttack.webp"
+  },
+  {
+    "name": "Rough Cut",
+    "desc": "Hitting a Victim with the chainsaw causes 1 HP of extra damage per second for 14 seconds.",
+    "img": "images/IconPerks_RoughCut.webp"
+  },
+  {
+    "name": "Hurt Em'",
+    "desc": "Barbed wire traps do 500% more damage (30 damage). Increases the damage dealt to a Victim caught in barbed wire for 45 seconds if they continue to run while barbed wire is attached to them.",
+    "img": "images/Nancy_Hurt_Em.webp"
+  },
+  {
+    "name": "Venom",
+    "desc": "Victims caught in traps take 1 HP of extra damage per second for 45 seconds.",
+    "img": "images/IconPerks_Venom.webp"
+  },
+  {
+    "name": "Toxic Cloud",
+    "desc": "The poison seeps into the Victim's wounds, causing them to lose 1 HP per second for the next 60 seconds.",
+    "img": "images/IconAbility_Bane.webp"
+  },
+
+  {
+    "name": "Back For Blood",
+    "desc": "When sneak attacking Grandpa you decrease Family bond by an extra 30% and heal for 40% health.",
+    "img": "images/IconPerks_BackForBlood.webp"
+  },
+  {
+    "name": "Sanguine Shadow",
+    "desc": "If you drop below 70%, it can be refilled slowly by staying hidden and motionless in shadows or hiding spots. Health received is 3 HP per second.",
+    "img": "images/IconPerks_SanguineShadow.webp"
+  },
+
+  {
+    "name": "Medical Benefits",
+    "desc": "Healing a fellow Victim also heals yourself. The amount of health received will be 125% of total healing applied to your teammate.",
+    "img": "images/IconPerks_MedicalBenefits.webp"
+  },
+  {
+    "name": "Extra Drip",
+    "desc": "After using a health item, you will continue to receive 4 HP for 12 seconds.",
+    "img": "images/IconPerks_ExtraDrip.webp"
+  },
+
+  {
+    "name": "Safety In Numbers",
+    "desc": "While all Victims are alive and before any have escaped, you receive 30% bonus to your max health and stamina.",
+    "img": "images/IconPerks_SafetyInNumbers.webp"
+  },
+  {
+    "name": "Bounce Back Better",
+    "desc": "Healing items used on you are 50% more effective. Counts for being healed and healing yourself.",
+    "img": "images/IconPerks_BounceBackBetter.webp"
+  },
+  {
+    "name": "Blood Clot Cry",
+    "desc": "Receive 30 health whenever Grandpa activates his Sonar ability. Has infinite charges.",
+    "img": "images/IconPerks_BloodClotCry.webp"
+  },
+  {
+    "name": "Pep Talk",
+    "desc": "Sweet-talking Grandpa heals you by 40% of your maximum HP.",
+    "img": "images/IconPerks_PepTalk.webp"
+  },
+  {
+    "name": "Grandpa levelling units",
+    "desc": "Leatherface cutting barricades: 25 blood<br>Leatherface destroying crawl spaces: 25 blood<br>Cook succesful pings: 20 blood<br>Victim triggering Hitchhickers' traps: 50 blood<br>Victim jumping out of a window: 25 blood<br>Victim executed: 50 blood<br>Victim detected by grandpa when near him: 50 blood<br>Victim found in hiding spot: 75 blood",
+    "img": "images/1373748170223390840.webp"
+  },
+  {
+    "name": "Grandpa perks",
+    "desc": "All Grandpa perks have been reduced by 1 level.",
+    "img": "images/1373748170223390840.webp"
+  },
+  {
+    "name": "Victim bleedout",
+    "desc": "Victim bleedout has been increased.",
+    "img": "images/blood rush icon.png",
+    "img": "images/blood rush bleedout.png"
+  }
+
+]
+
