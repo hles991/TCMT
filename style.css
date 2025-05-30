@@ -49,14 +49,12 @@ h1 {
 #results li.large-img {
   flex-direction: column;
   align-items: center;
-  text-align: center;
 }
 .icon-large {
   display: block;
-  width: 100%;        /* Take full width of the container */
-  height: auto;       /* Maintain aspect ratio */
-  max-width: 100%;    /* Prevent overflow */
-  margin-top: 0.5rem;
+  width: 100%;         /* Full width of parent */
+  max-width: 100%;     /* Prevent overflow */
+  height: auto;        /* Maintain aspect ratio */
   object-fit: contain;
+  margin-top: 0.5rem;
 }
-
