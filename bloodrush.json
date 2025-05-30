@@ -1,4 +1,21 @@
 [
+
+  {
+    "name": "Grandpa levelling units",
+    "desc": "Leatherface cutting barricades: 25 blood<br>Leatherface destroying crawl spaces: 25 blood<br>Cook succesful pings: 20 blood<br>Victim triggering Hitchhiker's traps: 50 blood<br>Victim jumping out of a window: 25 blood<br>Victim executed: 50 blood<br>Victim detected by grandpa when near him: 50 blood<br>Victim found in hiding spot: 75 blood",
+    "img": "images/1373748170223390840.webp"
+  },
+  {
+    "name": "Grandpa perks",
+    "desc": "All Grandpa perks have been reduced by 1 level.",
+    "img": "images/1373748170223390840.webp"
+  },
+  {
+    "name": "Victims bleedout",
+    "desc": "Victims bleedout has been increased.",
+    "img": "images/blood rush bleedout.png",
+    "large": true
+  },
   {
     "name": "Serrated",
     "desc": "Victims hit by the Perk holder take 1 HP per second of extra damage for the next 10 seconds.",
@@ -71,22 +88,6 @@
     "name": "Pep Talk",
     "desc": "Sweet-talking Grandpa heals you by 40% of your maximum HP.",
     "img": "images/IconPerks_PepTalk.webp"
-  },
-  {
-    "name": "Grandpa levelling units",
-    "desc": "Leatherface cutting barricades: 25 blood<br>Leatherface destroying crawl spaces: 25 blood<br>Cook succesful pings: 20 blood<br>Victim triggering Hitchhiker's traps: 50 blood<br>Victim jumping out of a window: 25 blood<br>Victim executed: 50 blood<br>Victim detected by grandpa when near him: 50 blood<br>Victim found in hiding spot: 75 blood",
-    "img": "images/1373748170223390840.webp"
-  },
-  {
-    "name": "Grandpa perks",
-    "desc": "All Grandpa perks have been reduced by 1 level.",
-    "img": "images/1373748170223390840.webp"
-  },
-  {
-    "name": "Victims bleedout",
-    "desc": "Victims bleedout has been increased.",
-    "img": "images/blood rush bleedout.png",
-    "large": true
   }
 
 ]
