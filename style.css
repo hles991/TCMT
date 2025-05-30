@@ -49,16 +49,13 @@ h1 {
 #results li.large-img {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;   /* 👈 text + image start at the left */
-  text-align: left;          /* 👈 ensure text spans from the left */
-  width: 100%;               /* 👈 fill the available width */
-  padding: 1rem 0;           /* optional extra padding top/bottom */
-  border-bottom: 1px solid #eee;
+  align-items: flex-start;
+  text-align: left;
+  padding: 1rem 0;
 }
-.icon-large {
-  display: block;
-  width: 100%;       /* 👈 fill the li’s width */
-  height: auto;      /* preserve aspect ratio */
-  object-fit: contain;
-  margin: 0.5rem 0;  /* space above/below the image */
+
+#results li.large-img .icon {
+  width: 100%;
+  height: auto;
+  margin: 0.5rem 0;
 }
