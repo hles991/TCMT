@@ -26,7 +26,7 @@
   },
   {
     "name": "Toxic Cloud",
-    "desc": "The poison seeps into the Victim's wounds, causing them to lose 1 HP per second for the next 60 seconds.",
+    "desc": "The poison seeps into the Victim's wounds, causing them to lose 1 HP per second for the next 30 seconds.",
     "img": "images/IconAbility_Bane.webp"
   },
 
@@ -74,7 +74,7 @@
   },
   {
     "name": "Grandpa levelling units",
-    "desc": "Leatherface cutting barricades: 25 blood<br>Leatherface destroying crawl spaces: 25 blood<br>Cook succesful pings: 20 blood<br>Victim triggering Hitchhickers' traps: 50 blood<br>Victim jumping out of a window: 25 blood<br>Victim executed: 50 blood<br>Victim detected by grandpa when near him: 50 blood<br>Victim found in hiding spot: 75 blood",
+    "desc": "<strong>Leatherface cutting barricades<strong>: 25 blood<br><strong>Leatherface destroying crawl spaces<strong>: 25 blood<br><strong>Cook succesful pings<strong>: 20 blood<br><strong>Victim triggering Hitchhickers' traps<strong>: 50 blood<br><strong>Victim jumping out of a window<strong>: 25 blood<br><strong>Victim executed<strong>: 50 blood<br><strong>Victim detected by grandpa when near him<strong>: 50 blood<br><strong>Victim found in hiding spot<strong>: 75 blood",
     "img": "images/1373748170223390840.webp"
   },
   {
@@ -85,8 +85,8 @@
   {
     "name": "Victim bleedout",
     "desc": "Victim bleedout has been increased.",
-    "img": "images/blood rush icon.png",
-    "img": "images/blood rush bleedout.png"
+    "img": "images/blood rush bleedout.png",
+    "large": true
   }
 
 ]

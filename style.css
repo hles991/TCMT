@@ -42,3 +42,8 @@ h1 {
   display: block;
   font-size: 1.1rem;
 }
+#results li.large-img .icon {
+  width: 80px;
+  height: 80px;
+}
+

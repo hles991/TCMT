@@ -9,7 +9,7 @@ const searchContainer = document.getElementById('searchContainer');
 // Render function
 function renderList(items) {
   list.innerHTML = items.map(p => `
-    <li>
+    <li class="${p.large ? 'large-img' : ''}">
       ${p.img ? `<img src="${p.img}" alt="${p.name}" class="icon">` : ''}
       <div class="info">
         <strong>${p.name}</strong>
@@ -18,6 +18,7 @@ function renderList(items) {
     </li>
   `).join('');
 }
+
 
 // Search filter logic
 function handleSearch() {
