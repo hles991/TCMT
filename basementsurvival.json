@@ -1,0 +1,155 @@
+[
+  {
+    "name": "Game Modifier: Lair of Bones",
+    "desc": "A 1v4 game mode set in the basement, where Bones hunts down four victims before the time runs out.<br>For the latest news on our modes, follow <a href='https://x.com/TCMModes' target='_blank'>@TCMModes on X</a> and join our <a href='https://t.co/VYye7OHLMJ' target='_blank'>Discord server</a>.",
+    "img": "images/TCMModes logo.webp",
+    "tags": "rules"
+  },
+  {
+    "name": "Gamemode Sypnosis",
+    "desc": "Trapped in the basement, you're either hunting or being hunted. There is no escape—only survival. Victims must stay alive for 7 minutes, while Bones must eliminate them all before time runs out.",
+    "img": "images/IconGrandpaAbility_NobodyEscapesHell.webp",
+    "tags": "rules"
+  },
+  {
+    "name": "Victims are a few hits away from death, and their stamina regenerates more slowly.",
+    "desc": "Running alone won’t save you from Bones. Be prepared—have a backup plan in case things go south.<br> Victims can find helpful items throughout the basement to track or blind Bones.",
+    "img": "images/IconAbility_UltimateEscape.webp",
+    "tags": "rules"
+  },
+  {
+    "name": "Grandpa’s Sonar Behavior",
+    "desc": "At the start of the match, Grandpa’s sonar only highlights moving victims. Once two victims are executed, it will reveal all victims, whether they are moving or not.",
+    "img": "images/1373748170223390840.webp",
+    "tags": "rules"
+  },
+  {
+    "name": "Character's Abilities",
+    "desc": "Every character comes with a unique ability and a few extra perks to help them out.",
+    "img": "images/IconAbility_HeightenedSense.webp",
+    "tags": "rules"
+  },
+  {
+    "name": "Additional perks and extra attribute points are disabled.",
+    "desc": "- You only need to unlock the first ability (Level 1) in a character's skill tree to gain access to everything they can do.<br>- You can also equip the base perks for Victims and Family for additional abilities.",
+    "img": "images/T_UI_IC_ExtraAttributesPts_Icon.png",
+    "tags": "rules"
+  },
+  {
+    "name": "Check the players' score board to see how much time is left.",
+    "desc": "The match timer starts at 420 seconds (7 minutes) and updates every 60 seconds until it reaches 0. If any victims are still alive when time runs out, they win and receive a 'Victim Escaped' notification.",
+    "img": "images/score board.jpg",
+    "tags": "rules",
+    "large": true
+  },
+  {
+    "name": "Bones",
+    "desc": "Bones places bombs quickly and can carry up to 3 at once. Bombs don’t deal damage, but any victim caught is revealed to him for 30 seconds. Bombs have a shorter explosion delay. He also moves faster overall, has all traversal perks unlocked, and is quicker through crawl spaces, gaps, and barricades. <br> Bones' proximity aura is smaller.",
+    "img": "images/Select_Portrait_Bones.webp",
+    "tags": "family"
+  },
+  {
+    "name": "Leland",
+    "desc": "Leland can barge Bones once per match with a long stun. He can also open crawl spaces instantly with one tap when near Bones.",
+    "img": "images/Select_Portrait_Leland.webp",
+    "tags": "victims"
+  },
+  {
+    "name": "Connie",
+    "desc": "Connie can craft wrenches by collecting an unlock tool from a toolbox and swapping it with another item in the environment. She also doesn’t trigger bone chimes.",
+    "img": "images/Select_Portrait_Connie.webp",
+    "tags": "victims"
+  },
+  {
+    "name": "Sonny",
+    "desc": "Sonny can activate his Sense ability for 10 seconds, with a 25-second cooldown. While active, he gains a 30% speed boost, his detection range is significantly increased, and he can tell whether a noise was made by a victim or Bones.",
+    "img": "images/Select_Portrait_Sonny.webp",
+    "tags": "victims"
+  },
+  {
+    "name": "Ana",
+    "desc": "Ana can activate her ability for 3.5 seconds, during which she takes no damage and regenerates stamina. It has a 60-second cooldown. Additionally, any doors latched by her are harder to barge.",
+    "img": "images/Select_Portrait_Ana.webp",
+    "tags": "victims"
+  },
+  {
+    "name": "Julie",
+    "desc": "Julie can activate her ability to prevent stamina from draining for 20 seconds, followed by a 90-second cooldown. She also doesn't trigger bone chimes or alert chickens.",
+    "img": "images/Select_Portrait_Julie.webp",
+    "tags": "victims"
+  },
+  {
+    "name": "Wyatt",
+    "desc": "Wyatt starts with 4 knives, which he can instantly aim and throw. Hitting Bones reveals him to all victims for 20 seconds, and to Wyatt for 50 seconds.",
+    "img": "images/Select_Portrait_Wyatt.webp",
+    "tags": "victims"
+  },
+  {
+    "name": "Unavailable Victims: Danny, Virginia and Maria (DO NOT USE)",
+    "desc": "Due to bug-related conflicts, Danny, Virginia, and Maria are not available in this mode. Please do not equip them, as they have no abilities and may cause issues.",
+    "img": "images/unavailable victims.webp",
+    "tags": "victims"
+  },
+  {
+    "name": "Bones' perks:",
+    "desc": "The following perks are available for Bones.<br>Selecting these existing perks in the game will now grant new effects, detailed below.",
+    "img": "images/LOB - Bones perks.png",
+    "tags": "victims",
+    "large": true
+  },
+  {
+    "name": "Spring Clean",
+    "desc": "Before Grandpa activates, your stamina consumption is reduced by 100%.",
+    "img": "images/spring clean.webp",
+    "tags": "perks"
+  },
+  {
+    "name": "Wired",
+    "desc": "Victims climbing over obstacles are highlighted to you for 10 seconds.",
+    "img": "images/wired.webp",
+    "tags": "perks"
+  },
+  {
+    "name": "Hurt Pride",
+    "desc": "After recovering from being stunned, your stamina recharges 100% faster for 30 seconds.",
+    "img": "images/IconPerks_HurtPride.webp",
+    "tags": "perks"
+  },
+  {
+    "name": "Universal Abilities (All Victims):",
+    "desc": "- If Bones comes within 4 meters of a hiding victim, he will be revealed and highlighted for all Victims to see. <br>- The stun range when bursting out of hiding spots has been slightly increased.<br>- Only Leland can open crawl spaces when Bones is nearby; other victims cannot.",
+    "img": "images/IconPerks_Spotter.webp",
+    "tags": "victims"
+  },
+  {
+    "name": "Universal Perks (All Victims):",
+    "desc": "The following perks are available for all victims.<br>Selecting these existing perks in the game will now grant new effects, detailed below.",
+    "img": "images/LOB - Victim perks.png",
+    "tags": "victims",
+    "large": true
+  },
+  {
+    "name": "SOS",
+    "desc": "Your aura will be seen by other Victims when at least one of these conditions are met:<br>- The first 3 minutes of the match<br>- When you are below 60% health",
+    "img": "images/am i bleeding.webp",
+    "tags": "perks"
+  },
+  {
+    "name": "No Sell",
+    "desc": "Getting hit by Bones results in 50% less damage. Has 1 charge.",
+    "img": "images/no sell.webp",
+    "tags": "perks"
+  },
+  {
+    "name": "Cover Recovery",
+    "desc": "Stamina recovery increased by 120% while using hiding spots or shadows.",
+    "img": "images/cover recovery.webp",
+    "tags": "perks"
+  },
+  {
+    "name": "Radar Detector",
+    "desc": "While Grandpa's Sonar ability is activated, Bones will be highlighted for 5 seconds. Has 10 charges.",
+    "img": "images/radar detector.webp",
+    "tags": "perks"
+  }
+]
