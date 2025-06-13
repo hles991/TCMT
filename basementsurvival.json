@@ -12,6 +12,12 @@
     "tags": "rules"
   },
   {
+    "name": "Quick Starting Guide",
+    "desc": "<b>Bones</b>: Once you spawn in, immediately jump down the nearest well to reach the Victims hiding in the basement. <br><br> <b>Victims</b>: Scatter throughout the basement to find useful items while avoiding Bones.",
+    "img": "images/IconGrandpaAbility_ExperiencedStalkers.webp",
+    "tags": "rules"
+  },
+  {
     "name": "Victims are a few hits away from death, and their stamina regenerates more slowly.",
     "desc": "Running alone won’t save you from Bones. Be prepared—have a backup plan in case things go south.<br> Victims can find helpful items throughout the basement to track or blind Bones.",
     "img": "images/IconAbility_UltimateEscape.webp",
@@ -92,7 +98,7 @@
   },
   {
     "name": "Bones' perks:",
-    "desc": "The following perks are available for Bones.<br>Selecting these existing perks in the game will now grant new effects, detailed below.",
+    "desc": "The following perks are available for Bones.<br>Selecting these existing perks in the game will now grant new effects, detailed below. <br><br> If you want this perk -> Equip this one in game",
     "img": "images/LOB - Bones perks.png",
     "tags": "victims",
     "large": true
@@ -123,14 +129,14 @@
   },
   {
     "name": "Universal Perks (All Victims):",
-    "desc": "The following perks are available for all victims.<br>Selecting these existing perks in the game will now grant new effects, detailed below.",
+    "desc": "The following perks are available for all victims.<br>Selecting these existing perks in the game will now grant new effects, detailed below.<br><br> If you want this perk -> Equip this one in game",
     "img": "images/LOB - Victim perks.png",
     "tags": "victims",
     "large": true
   },
   {
     "name": "SOS",
-    "desc": "Your aura will be seen by other Victims when at least one of these conditions are met:<br>- The first 3 minutes of the match<br>- When you are below 60% health",
+    "desc": "Your aura will be revealed to all Victims when at least one of these conditions are met:<br>- The first 3 minutes of the match<br>- When you are below 60% health",
     "img": "images/am i bleeding.webp",
     "tags": "perks"
   },
@@ -148,8 +154,14 @@
   },
   {
     "name": "Radar Detector",
-    "desc": "While Grandpa's Sonar ability is activated, Bones will be highlighted for 5 seconds. Has 10 charges.",
+    "desc": "While Grandpa's Sonar ability is activated, Bones will be highlighted for 5 seconds. Has 5 charges.",
     "img": "images/radar detector.webp",
+    "tags": "perks"
+  },
+  {
+    "name": "Additional notes:",
+    "desc": "Picking up bone shards isn’t intended in this mode, so grappling Bones is ineffective.",
+    "img": "images/IconGrandpaAbility_ExperiencedStalkers.webp",
     "tags": "perks"
   }
 ]
