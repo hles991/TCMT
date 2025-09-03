@@ -19,7 +19,7 @@
   },
   {
     "name": "Victims are a few hits away from death, and their stamina regenerates more slowly.",
-    "desc": "Running alone won’t save you from Bones. Be prepared—have a backup plan in case things go south.<br> Victims can find helpful items throughout the basement to track or blind Bones.",
+    "desc": "Running alone won’t save you from Bones. Be prepared—have a backup plan in case things go south.<br> Victims can find helpful items throughout the basement to track, blind or stun Bones.",
     "img": "images/IconAbility_UltimateEscape.webp",
     "tags": "rules"
   },
@@ -42,9 +42,9 @@
     "tags": "rules"
   },
   {
-    "name": "Check the players' score board to see how much time is left.",
-    "desc": "The match timer starts at 420 seconds (7 minutes) and updates every 60 seconds until it reaches 0. If any victims are still alive when time runs out, they win and receive a 'Victim Escaped' notification.",
-    "img": "images/score board.jpg",
+    "name": "Victims need to survive for 7 minutes.",
+    "desc": "If any victims are still alive when time runs out, they win and receive a 'Victim Escaped' notification.",
+    "img": "images/IconAbility_UltimateEscape.webp",
     "tags": "rules",
     "large": true
   },
@@ -62,7 +62,7 @@
   },
   {
     "name": "Connie",
-    "desc": "Connie can craft wrenches by collecting an unlock tool from a toolbox and swapping it with another item in the environment. She also doesn’t trigger bone chimes.",
+    "desc": "Connie can craft wrenches by collecting an unlock tool from a toolbox and swapping it with another item in the environment. She can see the aura of a fuse in the basement that can be used to swap unlock tools for crafting wrenches. She also doesn’t trigger bone chimes.",
     "img": "images/Select_Portrait_Connie.webp",
     "tags": "victims"
   },
@@ -74,13 +74,13 @@
   },
   {
     "name": "Ana",
-    "desc": "Ana can activate her ability for 3.5 seconds, during which she takes no damage and regenerates stamina. It has a 60-second cooldown. Additionally, any doors latched by her are harder to barge.",
+    "desc": "Ana can activate her ability for 5 seconds, during which she takes no damage and regenerates stamina. It has a 60-second cooldown. Additionally, any doors latched by her are harder to barge.",
     "img": "images/Select_Portrait_Ana.webp",
     "tags": "victims"
   },
   {
     "name": "Julie",
-    "desc": "Julie can activate her ability to prevent stamina from draining for 20 seconds, followed by a 90-second cooldown. She also doesn't trigger bone chimes or alert chickens.",
+    "desc": "Julie can activate her ability to prevent stamina from draining for 25 seconds, followed by a 70-second cooldown. She also doesn't trigger bone chimes or alert chickens.",
     "img": "images/Select_Portrait_Julie.webp",
     "tags": "victims"
   },
@@ -123,7 +123,7 @@
   },
   {
     "name": "Universal Abilities (All Victims):",
-    "desc": "- If Bones comes within 4 meters of a hiding victim, he will be revealed and highlighted for all Victims to see. <br>- The stun range when bursting out of hiding spots has been slightly increased.<br>- Only Leland can open crawl spaces when Bones is nearby; other victims cannot.",
+    "desc": "- After being injured, you are able to recover 15 health by avoiding damage for the next 45 seconds. <br>- If Bones comes within 4 meters of a hiding victim, he will be revealed and highlighted for all Victims to see. <br>- The stun range when bursting out of hiding spots has been slightly increased.<br>- Only Leland can open crawl spaces when Bones is nearby; other victims cannot.",
     "img": "images/IconPerks_Spotter.webp",
     "tags": "victims"
   },
