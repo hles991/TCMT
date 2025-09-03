@@ -24,6 +24,12 @@
     "tags": "rules"
   },
   {
+    "name": "Victims need to survive for 7 minutes.",
+    "desc": "If any victims are still alive when time runs out, they win and receive a 'Victim Escaped' notification.",
+    "img": "images/IconAbility_UltimateEscape.webp",
+    "tags": "rules"
+  },
+  {
     "name": "Grandpa’s Sonar Behavior",
     "desc": "At the start of the match, Grandpa’s sonar only highlights moving victims. Once two victims are executed, it will reveal all victims, whether they are moving or not.",
     "img": "images/1373748170223390840.webp",
@@ -40,13 +46,6 @@
     "desc": "- You only need to unlock the first ability (Level 1) in a character's skill tree to gain access to everything they can do.<br>- You can also equip the base perks for Victims and Family for additional abilities.",
     "img": "images/T_UI_IC_ExtraAttributesPts_Icon.png",
     "tags": "rules"
-  },
-  {
-    "name": "Victims need to survive for 7 minutes.",
-    "desc": "If any victims are still alive when time runs out, they win and receive a 'Victim Escaped' notification.",
-    "img": "images/IconAbility_UltimateEscape.webp",
-    "tags": "rules",
-    "large": true
   },
   {
     "name": "Bones",
