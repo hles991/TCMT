@@ -49,7 +49,7 @@
   },
   {
     "name": "Bones",
-    "desc": "Bones places bombs quickly and can carry up to 3 at once. Bombs don’t deal damage, but any victim caught is revealed to him for 30 seconds. Bombs have a shorter explosion delay. He also moves faster overall, has all traversal perks unlocked, and is quicker through crawl spaces, gaps, and barricades. <br> Bones' proximity aura is smaller.",
+    "desc": "Bones places bombs quickly and can carry up to 3 at once. Bombs don’t deal damage, but any victim caught has their stamina severely impacted and is revealed to him for 30 seconds. Bombs have a shorter explosion delay. He also moves faster overall, has all traversal perks unlocked, and is quicker through crawl spaces, gaps, and barricades. <br> Bones' proximity aura is smaller.",
     "img": "images/Select_Portrait_Bones.webp",
     "tags": "family"
   },
