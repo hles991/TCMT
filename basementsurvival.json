@@ -122,7 +122,7 @@
   },
   {
     "name": "Universal Abilities (All Victims):",
-    "desc": "- After being injured, you are able to recover 15 health by avoiding damage for the next 45 seconds. <br>- If Bones comes within 4 meters of a hiding victim, he will be revealed and highlighted for all Victims to see. <br>- The stun range when bursting out of hiding spots has been slightly increased.<br>- Only Leland can open crawl spaces when Bones is nearby; other victims cannot.",
+    "desc": "- After being injured, you are able to recover some health by avoiding damage for the next 45 seconds. <br>- If Bones comes within 4 meters of a hiding victim, he will be revealed and highlighted for all Victims to see. <br>- The stun range when bursting out of hiding spots has been slightly increased.<br>- Only Leland can open crawl spaces when Bones is nearby; other victims cannot.",
     "img": "images/IconPerks_Spotter.webp",
     "tags": "victims"
   },
