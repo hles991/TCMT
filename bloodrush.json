@@ -102,6 +102,11 @@
     "tags": "perks"
   },
   {
+    "name": "Perk changes",
+    "desc": "The following perks have been changed:",
+    "tags": "perks"
+  },
+  {
     "name": "Surgical",
     "desc": "You receive 150% more blood when attacking Victims.",
     "img": "images/IconPerks_Surgical.webp",
