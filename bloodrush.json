@@ -23,18 +23,18 @@
   },
   {
     "name": "Health bottles",
-    "desc": "Big health bottles give 20% HP and small health bottles give 40% more HP.",
-    "img": "images/blood rush bleedout.png"
+    "desc": "Big health bottles give 20% more HP.<br>Small health bottles give 40% more HP.",
+    "img": "images/IconPerks_BounceBackBetter.webp"
   },
   {
     "name": "Toughness Attribute Rework",
     "desc": "Toughness has been increased has follows:<br>From level 10 to 39: 10% Increase in HP<br>From level 40-50: 15% increase in HP.",
-    "img": "images/blood rush bleedout.png"
+    "img": "images/toughness.png"
   },
   {
     "name": "Blood Harvesting Attribute Rework",
     "desc": "Blood Harvesting has been increased has follows:<br>From level 10 to 39: Family gets 20% more blood from buckets<br>From level 40-49: Family gets 30% more blood from buckets<br>Level 50: Family gets 70% more blood from buckets",
-    "img": "images/blood rush bleedout.png"
+    "img": "images/blood harvesting.png"
   },
   {
     "name": "Maria Ability:",
@@ -54,7 +54,7 @@
   {
     "name": "Universal Perks (All Victims):",
     "desc": "The following 3 perks are available for all victims.<br>Selecting these existing perks in the game will now grant new effects, detailed below.<br><br> If you want this perk -> Equip this one in game",
-    "img": "images/LOB - Victim perks.png",
+    "img": "images/blood rush universal perks - victims.png",
     "tags": "victims",
     "large": true
   },
@@ -79,7 +79,7 @@
   {
     "name": "Universal Perks (All Family):",
     "desc": "The following 3 perks are available for all Family.<br>Selecting these existing perks in the game will now grant new effects, detailed below.<br><br> If you want this perk -> Equip this one in game",
-    "img": "images/LOB - Victim perks.png",
+    "img": "images/blood rush universal perks - family.png",
     "tags": "victims",
     "large": true
   },
