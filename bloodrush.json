@@ -6,13 +6,13 @@
     "tags": "rules"
   },
   {
-    "name": "Grandpa levelling units",
-    "desc": "Leatherface cutting barricades: 25 blood<br>Leatherface destroying crawl spaces: 25 blood<br>Cook succesful pings: 20 blood<br>Victim triggering Hitchhiker's traps: 50 blood<br>Victim jumping out of a window: 25 blood<br>Victim executed: 50 blood<br>Victim detected by grandpa when near him: 50 blood<br>Victim found in hiding spot: 75 blood",
+    "name": "Grandpa Rework",
+    "desc": "Incapacitating Grandpa disabled him for 90 seconds. During that time, he cannot be interacted with.",
     "img": "images/1373748170223390840.webp"
   },
   {
-    "name": "Grandpa perks",
-    "desc": "All Grandpa perks have been reduced by 1 level.",
+    "name": "Grandpa levelling units",
+    "desc": "The following actions affects Grandpa's blood level:<br>Leatherface cutting barricades: 12 blood<br>Leatherface destroying crawl spaces: 12 blood<br>Cook succesful pings: 10 blood<br>Victim triggering Hitchhiker's traps: 30 blood<br>Victim executed: 30 blood<br>Victim detected by grandpa when near him: 20 blood<br>Victim found in hiding spot: 75 blood<br>Victim escaped: -75 blood",
     "img": "images/1373748170223390840.webp"
   },
   {
@@ -22,8 +22,100 @@
     "large": true
   },
   {
+    "name": "Health bottles",
+    "desc": "Big health bottles give 20% HP and small health bottles give 40% more HP.",
+    "img": "images/blood rush bleedout.png"
+  },
+  {
+    "name": "Toughness Attribute Rework",
+    "desc": "Toughness has been increased has follows:<br>From level 10 to 39: 10% Increase in HP<br>From level 40-50: 15% increase in HP.",
+    "img": "images/blood rush bleedout.png"
+  },
+  {
+    "name": "Blood Harvesting Attribute Rework",
+    "desc": "Blood Harvesting has been increased has follows:<br>From level 10 to 39: Family gets 20% more blood from buckets<br>From level 40-49: Family gets 30% more blood from buckets<br>Level 50: Family gets 70% more blood from buckets",
+    "img": "images/blood rush bleedout.png"
+  },
+  {
+    "name": "Maria Ability:",
+    "desc": "LVL 3, right path: Each time you sweet-talk Grandpa his level will be reduced by 1, has a cooldown of 3 minutes.",
+    "img": "images/Select_Portrait_Maria.webp"
+  },
+  {
+    "name": "Leland Ability:",
+    "desc": "LVL 1, middle path: After barging a Family member, 40 HP is restored.",
+    "img": "images/Select_Portrait_Leland.webp"
+  },
+  {
+    "name": "Virginia Ability:",
+    "desc": "LVL 1, middle path: You can now recharge your ability bar by 50 points when you contaminate a blood bucket.<br>LVL 1, left path: Increase contamination duration by 90 seconds<br>LVL 2, right path: Increase contamination duration by 60 seconds",
+    "img": "images/Select_Portrait_Virginia.webp"
+  },
+  {
+    "name": "Universal Perks (All Victims):",
+    "desc": "The following 3 perks are available for all victims.<br>Selecting these existing perks in the game will now grant new effects, detailed below.<br><br> If you want this perk -> Equip this one in game",
+    "img": "images/LOB - Victim perks.png",
+    "tags": "victims",
+    "large": true
+  },
+  {
+    "name": "SOS",
+    "desc": "Victims see your aura at all times.",
+    "img": "images/am i bleeding.webp",
+    "tags": "perks"
+  },
+  {
+    "name": "Tourniquet",
+    "desc": "After consuming a health item, you don't bleed out for 90 seconds.",
+    "img": "images/IconPerks_Tourniquet.webp",
+    "tags": "perks"
+  },
+  {
+    "name": "Back For Blood",
+    "desc": "When sneak attacking Grandpa you decrease Family bond by an extra 30% and heal for 50% health.",
+    "img": "images/IconPerks_BackForBlood.webp",
+    "tags": "perks"
+  },
+  {
+    "name": "Universal Perks (All Family):",
+    "desc": "The following 3 perks are available for all Family.<br>Selecting these existing perks in the game will now grant new effects, detailed below.<br><br> If you want this perk -> Equip this one in game",
+    "img": "images/LOB - Victim perks.png",
+    "tags": "victims",
+    "large": true
+  },
+  {
+    "name": "Blood Banker",
+    "desc": "Your maximum blood storage capacity is increased by 50%.",
+    "img": "images/IconPerks_BloodBanker.webp",
+    "tags": "perks"
+  },
+  {
+    "name": "You'll Pay For That!",
+    "desc": "If Grandpa is incapacitated, your damage dealt to Victims is increased by 35% until he recovers.",
+    "img": "images/IconPerks_YoullPayForThat.webp",
+    "tags": "perks"
+  },
+  {
+    "name": "Tracker Tagged",
+    "desc": "Hitting a Victim highlights them for all Family members. Highlight duration is 8 seconds.",
+    "img": "images/IconPerks_TrackerTagged.webp",
+    "tags": "perks"
+  },
+  {
+    "name": "Surgical",
+    "desc": "You receive 150% more blood when attacking Victims.",
+    "img": "images/IconPerks_Surgical.webp",
+    "tags": "perks"
+  },
+  {
+    "name": "Sip Sip Sip",
+    "desc": "Melee attacks give 100% more blood in your vial, but attack damage is reduced by 20%.",
+    "img": "images/IconPerk_SipSipSip.webp",
+    "tags": "perks"
+  },
+  {
     "name": "Serrated",
-    "desc": "Victims hit by the Perk holder take 1 HP per second of extra damage for the next 10 seconds.",
+    "desc": "Victims hit by the Perk holder take 0.5 HP per second of extra damage for the next 10 seconds.",
     "img": "images/serrated.webp"
   },
   {
@@ -38,7 +130,7 @@
   },
   {
     "name": "Hurt Em'",
-    "desc": "Barbed wire traps do 500% more damage (30 damage). Increases the damage dealt to a Victim caught in barbed wire for 45 seconds if they continue to run while barbed wire is attached to them.",
+    "desc": "Barbed wire traps do 30 damage. Increases the damage dealt to a Victim caught in barbed wire for 45 seconds if they continue to run while barbed wire is attached to them.",
     "img": "images/Nancy_Hurt_Em.webp"
   },
   {
@@ -50,12 +142,6 @@
     "name": "Toxic Cloud",
     "desc": "The poison seeps into the Victim's wounds, causing them to lose 1 HP per second for the next 30 seconds.",
     "img": "images/IconAbility_Bane.webp"
-  },
-
-  {
-    "name": "Back For Blood",
-    "desc": "When sneak attacking Grandpa you decrease Family bond by an extra 30% and heal for 40% health.",
-    "img": "images/IconPerks_BackForBlood.webp"
   },
   {
     "name": "Sanguine Shadow",
