@@ -154,6 +154,26 @@
     "img": "images/IconAbility_Bane.webp"
   },
   {
+    "name": "I Can Make It",
+    "desc": "When under 40% health, receive 15 points towards Endurance.",
+    "img": "images/IconPerks_ICanMakeIt.webp"
+  },
+  {
+    "name": "I Can Do This",
+    "desc": "When under 40% health, receive 15 points towards Proficiency.",
+    "img": "images/IconPerks_ICanDoThis.webp"
+  },
+  {
+    "name": "Hush Or Die",
+    "desc": "When under 40% health, receive 15 points towards Stealth.",
+    "img": "images/IconPerks_HushOrDie.webp"
+  },
+  {
+    "name": "Wax On Wax Off",
+    "desc": "When under 40% health, receive 15 points towards Strength.",
+    "img": "images/IconPerks_WaxOnWaxOff.webp"
+  },
+  {
     "name": "Sanguine Shadow",
     "desc": "If you drop below 70%, it can be refilled slowly by staying hidden and motionless in shadows or hiding spots. Health received is 3 HP per second.",
     "img": "images/IconPerks_SanguineShadow.webp"
