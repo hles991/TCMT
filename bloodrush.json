@@ -38,7 +38,7 @@
   },
   {
     "name": "Maria Ability:",
-    "desc": "LVL 3, right path: Each time you sweet-talk Grandpa his level will be reduced by 1, has a cooldown of 3 minutes.",
+    "desc": "LVL 3, right path: Each time you sweet-talk Grandpa his level will be reduced by 2, has a cooldown of 3 minutes.",
     "img": "images/Select_Portrait_Maria.webp"
   },
   {
@@ -77,13 +77,13 @@
   },
   {
     "name": "Back For Blood",
-    "desc": "When sneak attacking Grandpa you decrease Family bond by an extra 30% and heal for 50% health.",
+    "desc": "When sneak attacking Grandpa you decrease Family bond by an extra 50% and heal for 50% health.",
     "img": "images/IconPerks_BackForBlood.webp",
     "tags": "perks"
   },
   {
-    "name": "Universal Perks (All Family):",
-    "desc": "The following 3 perks are available for all Family.<br>Selecting these existing perks in the game will now grant new effects, detailed below.<br><br> If you want this perk -> Equip this one in game",
+    "name": "Universal Perk (All Family):",
+    "desc": "The following perk is available for all Family.<br> If you want this perk -> Equip this one in game",
     "img": "images/blood rush universal perks - family.png",
     "tags": "victims",
     "large": true
@@ -92,18 +92,6 @@
     "name": "Blood Banker",
     "desc": "Your maximum blood storage capacity is increased by 50%.",
     "img": "images/IconPerks_BloodBanker.webp",
-    "tags": "perks"
-  },
-  {
-    "name": "You'll Pay For That!",
-    "desc": "If Grandpa is incapacitated, your damage dealt to Victims is increased by 35% until he recovers.",
-    "img": "images/IconPerks_YoullPayForThat.webp",
-    "tags": "perks"
-  },
-  {
-    "name": "Tracker Tagged",
-    "desc": "Hitting a Victim highlights them for all Family members. Highlight duration is 8 seconds.",
-    "img": "images/IconPerks_TrackerTagged.webp",
     "tags": "perks"
   },
   {
@@ -121,6 +109,18 @@
     "name": "Sip Sip Sip",
     "desc": "Melee attacks give 100% more blood in your vial, but attack damage is reduced by 20%.",
     "img": "images/IconPerk_SipSipSip.webp",
+    "tags": "perks"
+  },
+  {
+    "name": "You'll Pay For That!",
+    "desc": "If Grandpa is incapacitated, your damage dealt to Victims is increased by 35% until he recovers.",
+    "img": "images/IconPerks_YoullPayForThat.webp",
+    "tags": "perks"
+  },
+  {
+    "name": "Tracker Tagged",
+    "desc": "Hitting a Victim highlights them for all Family members. Highlight duration is 8 seconds.",
+    "img": "images/IconPerks_TrackerTagged.webp",
     "tags": "perks"
   },
   {
