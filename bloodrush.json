@@ -7,7 +7,7 @@
   },
   {
     "name": "Grandpa Rework",
-    "desc": "Incapacitating Grandpa disabled him for 90 seconds. During that time, he cannot be interacted with.",
+    "desc": "Incapacitating Grandpa disables him for 90 seconds. During that time, he cannot be interacted with.",
     "img": "images/1373748170223390840.webp"
   },
   {
@@ -40,6 +40,11 @@
     "name": "Maria Ability:",
     "desc": "LVL 3, right path: Each time you sweet-talk Grandpa his level will be reduced by 1, has a cooldown of 3 minutes.",
     "img": "images/Select_Portrait_Maria.webp"
+  },
+  {
+    "name": "Connie Ability:",
+    "desc": "LVL 3, left path: Reduce ability cooldown to 180 seconds, at the cost of 75 health and 180 seconds proximity debuff.<br>LVL 3, middle path: Reduce ability cooldown to 240 seconds seconds, at the cost of 50 health and 10 seconds proximity debuff.<br>LVL 3, right path: 300 base cooldown, 30 seconds proximity debuff, no health cost.",
+    "img": "images/Select_Portrait_Connie.webp"
   },
   {
     "name": "Leland Ability:",
