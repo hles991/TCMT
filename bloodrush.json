@@ -154,6 +154,11 @@
     "img": "images/IconAbility_Bane.webp"
   },
   {
+    "name": "Resilient",
+    "desc": "When under 40% health, receive 15 points towards Toughness.",
+    "img": "images/IconPerks_Resilient.webp"
+  },
+  {
     "name": "I Can Make It",
     "desc": "When under 40% health, receive 15 points towards Endurance.",
     "img": "images/IconPerks_ICanMakeIt.webp"
