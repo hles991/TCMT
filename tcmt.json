@@ -1,87 +1,15 @@
 [
-
   {
-    "name": "Always in Sync",
-    "desc": "Level 2: When active, the Family Focus ability duration is increased by 50% (from 10 to 15 seconds) and the cooldown is reduced by 50% (from 30 to 15 seconds).",
-    "img": "images/IconGrandpaAbility_AlwaysInSync.webp",
-    "tags": "grandpa"
+    "name": "Game Modifier: Texas Chain Saw Tuned",
+    "desc": "An balance overall mode for the main game The Texas Chain Saw Massacre.<br>For the latest news on our modes, follow <a href='https://x.com/TCMModes' target='_blank'>@TCMModes on X</a> and join our <a href='https://t.co/VYye7OHLMJ' target='_blank'>Discord server</a>.",
+    "img": "images/TCMModes logo.webp",
+    "tags": "rules"
   },
   {
-    "name": "Animal Farm",
-    "desc": "Level 1: Increased chicken detection radius.",
-    "img": "images/IconGrandpaAbility_AnimalFarm.webp",
-    "tags": "grandpa"
-  },
-  {
-    "name": "Barge to the Point",
-    "desc": "Level 2: Barging doors always opens them on the first try.",
-    "img": "images/IconGrandpaAbility_BargeToThePoint.webp",
-    "tags": "grandpa"
-  },
-  {
-    "name": "Thousand Cuts",
-    "desc": "**Replaces Brute Strength** <br> Level 3: Victim bleed out rate increased by 250%.",
-    "img": "images/IconGrandpaAbility_BruteStrength.webp",
-    "tags": "grandpa"
-  },
-  {
-    "name": "Don't Have All Day",
-    "desc": "Level 3: Stamina drain while sprinting is decreased by 25%.",
-    "img": "images/IconGrandpaAbility_DontHaveAllDay.webp",
-    "tags": "grandpa"
-  },
-  {
-    "name": "Excited Grandpa",
-    "desc": "Level 3: Delay between Grandpa's Sonar ability is reduced by 25% at each level.",
-    "img": "images/IconGrandpaAbility_ExcitedGrandpa.webp",
-    "tags": "grandpa"
-  },
-  {
-    "name": "Experienced Stalkers",
-    "desc": "Level 3: Reduces the Family's proximity warning range for Victims by 75%.",
-    "img": "images/IconGrandpaAbility_ExperiencedStalkers.webp",
-    "tags": "grandpa"
-  },
-  {
-    "name": "Exterior Alarms",
-    "desc": "Level 3: When active, all critical doors and gates are highlighted for 10 seconds if opened.",
-    "img": "images/IconGrandpaAbility_ExteriorAlarms.webp",
-    "tags": "grandpa"
-  },
-  {
-    "name": "Nobody Escapes Hell",
-    "desc": "Level 2: The minigame for locked doors is 50% more difficult for all Victims.",
-    "img": "images/IconGrandpaAbility_NobodyEscapesHell.webp",
-    "tags": "grandpa"
-  },
-  {
-    "name": "Suffocating Grip",
-    "desc": "Level 1: Close encounter minigame is easier by 20% for the Family.",
-    "img": "images/IconGrandpaAbility_SuffocatingGrip.webp",
-    "tags": "grandpa"
-  },
-  {
-    "name": "Swinging for the Fences",
-    "desc": "Level 2: Reduces stamina consumption on melee attacks by 25%.",
-    "img": "images/IconGrandpaAbility_SwingingForTheFences.webp",
-    "tags": "grandpa"
-  },
-  {
-    "name": "Well Fed Yung'uns",
-    "desc": "Level 3: Whenever Grandpa's Sonar is activated, all Family members instantly regain 100% of their stamina.",
-    "img": "images/IconGrandpaAbility_WellFedYungUns.webp",
-    "tags": "grandpa"
-  },
-  {
-    "name": "Well Well Well",
-    "desc": "Level 1: Victims that jump down wells take 50% (+10, or +3 with Stunt Double) more damage.",
-    "img": "images/IconGrandpaAbility_WellWellWell.webp",
-    "tags": "grandpa"
-  },
-  {
-    "name": "Windoom",
-    "desc": "Level 1: Victims take 50% (damage depends on the window) more damage when jumping out of windows.",
-    "img": "images/IconGrandpaAbility_Windoom.webp",
-    "tags": "grandpa"
+    "name": "Full Patch Notes",
+    "desc": "Patch Notes: <a href=\"https://t.co/y9Gl7essBr\">https://t.co/y9Gl7essBr</a><br>Skilltrees & Abilities: <a href=\"https://tcmt.tcmmodes.com/\">https://tcmt.tcmmodes.com/</a><br>Queue website: <a href=\"https://queue.tcmmodes.com/\">https://queue.tcmmodes.com/</a>",
+    "img": "images/tcmt.webp",
+    "tags": "rules"
   }
+
 ]
