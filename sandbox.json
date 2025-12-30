@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Game Modifier: Sandbox",
+    "desc": "A casual mode that adds Johnny and the Sorority Girls to The Texas Chain Saw Massacre main game.<br>For the latest news on our modes, follow <a href='https://x.com/TCMModes' target='_blank'>@TCMModes on X</a> and join our <a href='https://t.co/VYye7OHLMJ' target='_blank'>Discord server</a>.",
+    "img": "images/TCMModes logo.webp",
+    "tags": "rules"
+  },
+
+  {
+    "name": "How can console players play new characters?",
+    "desc": "Have a PC player select a Rush Week character and send a swap request to you. You can then customize your character's cosmetic respectively.",
+    "img": "images/IconGrandpaAbility_ExperiencedStalkers.webp",
+    "tags": "rules"
+  },
+
+  {
+    "name": "Known bugs",
+    "desc": "Johnny Rush Week spawns invisible upon match start, but this only lasts for about a minute.",
+    "img": "images/IconGrandpaAbility_ExperiencedStalkers.webp",
+    "tags": "rules"
+  },
+
+  {
+    "name": "Victim A:",
+    "desc": "Toughness: 30<br>Endurance: 30<br>Strength: 25<br>Proficiency: 30<br>Stealth: 10",
+    "img": "images/T_UI_IC_HUD_Victim_Thumb_VictimMercury1.webp",
+    "tags": "rules"
+  },
+
+  {
+    "name": "Victim B:",
+    "desc": "Toughness: 20<br>Endurance: 35<br>Strength: 15<br>Proficiency: 35<br>Stealth: 20",
+    "img": "images/T_UI_IC_HUD_Victim_Thumb_VictimMercury2.webp",
+    "tags": "rules"
+  },
+
+  {
+    "name": "Victim C:",
+    "desc": "Toughness: 25<br>Endurance: 25<br>Strength: 15<br>Proficiency: 20<br>Stealth: 40",
+    "img": "images/T_UI_IC_HUD_Victim_Thumb_VictimMercury3.webp",
+    "tags": "rules"
+  },
+
+  {
+    "name": "Victim D:",
+    "desc": "Toughness: 20<br>Endurance: 30<br>Strength: 15<br>Proficiency: 45<br>Stealth: 20",
+    "img": "images/T_UI_IC_HUD_Victim_Thumb_VictimMercury4.webp",
+    "tags": "rules"
+  },
+
+  {
+    "name": "Victim E:",
+    "desc": "Toughness: 20<br>Endurance: 40<br>Strength: 40<br>Proficiency: 15<br>Stealth: 10",
+    "img": "images/T_UI_IC_HUD_Victim_Thumb_VictimMercury5.webp",
+    "tags": "rules"
+  },
+
+  {
+    "name": "Victim F:",
+    "desc": "Toughness: 40<br>Endurance: 25<br>Strength: 20<br>Proficiency: 25<br>Stealth: 20",
+    "img": "images/T_UI_IC_HUD_Victim_Thumb_VictimMercury6.webp",
+    "tags": "rules"
+  },
+
+  {
+    "name": "Sorority Girl Cutscene:",
+    "desc": "Toughness: 15<br>Endurance: 30<br>Strength: 20<br>Proficiency: 40<br>Stealth: 20",
+    "img": "images/T_UI_IC_Character_VictimMercury_Basic.webp",
+    "tags": "rules"
+  },
+
+  {
+    "name": "Johnny Rush Week:",
+    "desc": "Savagery: 75<br>Blood Harvesting: 16<br>Endurance: 35",
+    "img": "images/T_UI_IC_Character_Johnny_Mercury_Basic.webp",
+    "tags": "rules"
+  }
+
+]
